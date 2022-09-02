@@ -1,0 +1,36 @@
+{
+	"php.validate.executablePath": "",
+	"workbench.iconTheme": "material-icon-theme",
+	"editor.insertSpaces": false,
+	"editor.renderControlCharacters": true,
+	"editor.detectIndentation": false,
+	"editor.mouseWheelZoom": true,
+	"workbench.editor.closeEmptyGroups": false,
+	"editor.formatOnSave": true,
+	"liveSassCompile.settings.generateMap": true,
+	"liveSassCompile.settings.formats": [
+		{
+			"format": "expanded",
+			"autoprefix": "last 5 versions",
+			"extensionName": ".css",
+			"savePath": "src/styles"
+		}
+	],
+	"vscodeGoogleTranslate.preferredLanguage": "English",
+	"vscodeGoogleTranslate.HoverTranslations": false,
+	"liveServer.settings.donotVerifyTags": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"[html]": {
+		"editor.defaultFormatter": "vscode.html-language-features"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "michelemelluso.code-beautifier"
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "vscode.typescript-language-features"
+	},
+	"editor.guides.bracketPairs": true,
+	"sync.gist": "ae41941922eb1a861fc75f6bbebfe89e",
+	"sync.autoUpload": true,
+	"liveSassCompile.settings.autoprefix": [],
+}

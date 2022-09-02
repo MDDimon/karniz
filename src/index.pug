@@ -1,0 +1,43 @@
+- var pageTitle = 'Online TV'
+
+doctype html
+html(lang="ru")
+	head
+		title=pageTitle
+		style
+			include styles/fonts.css
+			include styles/normalize.css
+			include styles/styles.css
+		//-	Подключаем адаптивность
+		meta(name="viewport" content="width=device-width")
+	body
+		.wrapper
+			//-	Подключаем шапку с меню Шапка липкая
+			include modules/header
+			//- include modules/catalog-and-menu
+			//-	Выводим контент страницы
+			main.main
+				.conteiner
+					h1 Pug- node templayion enginecd
+						.conteiner-iteam
+							.conteiner-iteam-block
+								img(src="#" alt="")
+								.conteiner-iteam-title
+									span.title Карнизы
+							.conteiner-iteam-block
+								img(src="#" alt="")
+								.conteiner-iteam-title
+									span.title Ткани
+							.conteiner-iteam-block
+								img(src="#" alt="")
+								.conteiner-iteam-title
+									span.title Солнцезащита
+							.conteiner-iteam-block
+								img(src="#" alt="")
+								.conteiner-iteam-title
+									span.title Аксессуары
+			//-	Подключение footera
+			include modules/footer
+		//-	Подключение скриптов
+		script(src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous")
+		script(src="js/menu-script.js")

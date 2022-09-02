@@ -1,0 +1,46 @@
+header.header
+	//-.header_body_bg
+		div 
+			img(src="images/header-bg-left.svg" alt="")
+		div 
+			img(src="images/header-bg-right.svg" alt="")
+	.header_body_bg
+		.div_bg_left
+		.div_bg_right
+	.container
+		.header_bg
+			.header_top
+				.header_top_left
+					a.header_top_link(href="#") О компании
+				.header_top_right
+					.account_registration
+						a.header_top_link(href="#") Регистрация
+							i.la.la-user
+					.account_login
+						a.header_top_link(href="#") Вход
+							i.la.la-login
+		.header_body
+
+			.header_logo
+				a(href="#")
+					img.logo(src="images/logo.svg" alt="Logo")
+			.header_search
+				include search-form
+			.header_social_btn
+				a.inst_link(href="#")
+					img(src="images/instagramm.svg" alt="instagramm")
+				a.vk_link(href="#")
+					img(src="images/vkontakte.svg" alt="vkontakte")
+			.header_contacts
+				span.city Анапа
+				span.telephone
+					a(href="tel:+79905555555") +7 (990) 555-55-55
+				span
+					button.btn.btn-primary.callback(type='submit') Заказать звонок
+		//-Меню навигации Каталог и Главное
+		.header_nav
+			//-include main-menu-catalog
+			//-include main-menu
+			//-include menu
+			include catalog-and-menu
+

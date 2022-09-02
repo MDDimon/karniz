@@ -1,0 +1,55 @@
+.main-menu
+  nav#second-site-navigation.navbar.navbar-default.search-on.menu-cats-on.menu-right-on
+    .container
+      ul.envo-categories-menu.nav.navbar-nav.navbar-left
+        li.menu-item.menu-item-has-children.dropdown
+          a.envo-categories-menu-first(href="#") Каталог
+          ul#menu-3.dropdown-menu
+            li.menu-item.menu-item-type-post_type_archive.menu-item-object-product.menu-item-146.nav-item
+              a.nav-link(title="Все товары", href="#") Все товары
+            li.menu-item.nav-item
+              a.nav-link(href="#") Ткани
+            li.menu-item.nav-item
+              a.nav-link(href="#") Tshirts
+            li.menu-item.nav-item
+              a.nav-link(href="#") Солнцезащита
+            li.menu-item.nav-item
+              a.nav-link(href="#") Синтра
+            li.menu-item.nav-item
+              a.nav-link(href="#") Карнизы
+      .header-search-form
+        form(role="search", method="get", action, target="_self")
+          input(type="hidden", name="customize_messenger_channel", value="preview-0")
+          input(type="hidden", name="customize_theme", value="envo-marketplace")
+          input(type="hidden", name="customize_autosaved", value="on")
+          input(type="hidden", name="customize_changeset_uuid", value="4e7259b7-7c7b-40b3-aca7-83b054c8346f")
+          input(type="hidden", name="post_type", value="product")
+          input.header-search-input(name="s", type="text", placeholder="Искать товары...")
+          select.header-search-select(name="product_cat")
+            option(value) Все рубрики
+            option(value="tshirts") Tshirts (2)
+            option(value="tkani") Ткани (2)
+            option(value="aksessuary") Аксессуары (2)
+            option(value="karnizy") Карнизы (2)
+            option(value="sintra") Синтра (2)
+            option(value="solncezashchita") Солнцезащита (2)
+          button.header-search-button(type="submit")
+            i.la.la-search(aria-hidden="true")
+      #my-menu-right.menu-container
+        ul.nav.navbar-nav
+          li.menu-item.nav-item
+            a.nav-link.active(title="Главная") Галерея работ
+          li.menu-item.nav-item
+            a.nav-link Конструктор
+          li.menu-item.nav-item
+            a.nav-link(href="#") Услуги
+          li.menu-item.nav-item
+            a.nav-link(href="#") Прайс
+          li.menu-item.nav-item
+            a.nav-link(href="#") Оплата
+          li.menu-item.nav-item
+            a.nav-link(href="#") Доставка
+          li.menu-item.nav-item
+            a.nav-link(href="#") Uncategorized
+          li.menu-item.nav-item
+            a.nav-link(href="#") Shop
