@@ -33,4 +33,5 @@
 	"sync.gist": "ae41941922eb1a861fc75f6bbebfe89e",
 	"sync.autoUpload": true,
 	"liveSassCompile.settings.autoprefix": [],
+	"terminal.integrated.cwd": "C:\\Programs\\Git\\git-bash.exe",
 }

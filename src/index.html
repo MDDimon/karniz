@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
   <head>
-    <title>Online TV</title>
-    <link rel="stylesheet" href="styles/fonts.css">
+    <title>Дом карнизов | интернет–магазин</title>
     <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/fonts.css">
     <link rel="stylesheet" href="styles/styles.css">
     <meta name="viewport" content="width=device-width">
   </head>
@@ -31,7 +31,7 @@
                 <div class="text-field">
                   <div class="text-field__icon">
                     <input class="text-field__input" id="search" type="search" name="search" placeholder="Поиск по товарам" value=""><span class="text-field__aicon">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
                         <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"></path>
                       </svg></span>
                   </div>
@@ -43,23 +43,26 @@
                 <button class="btn btn-primary callback" type="submit">Заказать звонок</button></span></div>
           </div>
           <div class="header_nav">
-            <div class="container_menu">
+            <nav class="container_menu">
               <div class="catalog_btn">
                 <div class="header_burger_catalog"><span><span class="catalog"></span></span>
                   <div class="title_catalog">Каталог</div>
                 </div>
-                <nav class="header_catalog">
+                <div class="header_catalog">
                   <ul class="header_list_catalog">
                     <li><a class="header_link" href="">Карнизы</a></li>
                     <li><a class="header_link" href="">Ткани</a></li>
                     <li><a class="header_link" href="">Солнцезащита</a></li>
                     <li><a class="header_link" href="">Аксессуары</a></li>
                   </ul>
-                </nav>
+                </div>
               </div>
               <div class="menu">
-                <div class="header_burger"><span></span></div>
-                <nav class="header_menu">
+                <!--.menu-burger
+                .header_burger
+                	span
+                -->
+                <div class="header_menu">
                   <ul class="header_list">
                     <li><a class="header_link" href="">Галерея работ    </a></li>
                     <li><a class="header_link" href="">Конструктор</a></li>
@@ -68,36 +71,73 @@
                     <li><a class="header_link" href="">Оплата</a></li>
                     <li><a class="header_link" href="">Доставка</a></li>
                   </ul>
-                </nav>
+                </div>
               </div>
-            </div>
+            </nav>
           </div>
         </div>
       </header>
       <main class="main">
-        <div class="conteiner">
-          <h1>Pug- node templayion enginecd
-            <div class="conteiner-iteam">
-              <div class="conteiner-iteam-block"><img src="#" alt="">
-                <div class="conteiner-iteam-title"><span class="title">Карнизы</span></div>
-              </div>
-              <div class="conteiner-iteam-block"><img src="#" alt="">
-                <div class="conteiner-iteam-title"><span class="title">Ткани</span></div>
-              </div>
-              <div class="conteiner-iteam-block"><img src="#" alt="">
-                <div class="conteiner-iteam-title"><span class="title">Солнцезащита</span></div>
-              </div>
-              <div class="conteiner-iteam-block"><img src="#" alt="">
-                <div class="conteiner-iteam-title"><span class="title">Аксессуары</span></div>
+        <section class="container">
+          <div class="conteiner-iteam"><a class="conteiner-iteam-block" title="Карнизы" href="#"><img src="./images/karniz.png" alt="">
+              <div class="conteiner-iteam-title"><span class="title">Карнизы</span></div></a><a class="conteiner-iteam-block" title="Ткани" href="#"><img src="./images/tkani.png" alt="">
+              <div class="conteiner-iteam-title"><span class="title">Ткани</span></div></a><a class="conteiner-iteam-block" title="Солнцезащита" href="#"><img src="./images/solncezashita.png" alt="">
+              <div class="conteiner-iteam-title"><span class="title">Солнцезащита</span></div></a><a class="conteiner-iteam-block" title="Аксессуары" href="#"><img src="./images/aksessuary.png" alt="">
+              <div class="conteiner-iteam-title"><span class="title">Аксессуары</span></div></a></div>
+        </section>
+        <section class="container">
+          <div class="slider"> 
+            <div class="baner"> 
+              <div class="baner-img"><img src="./images/Banner.png" alt="">
+                <div class="slider-title"> 
+                  <div class="title">Карнизы Monstera</div>
+                  <div class="description">Популярные дизайнерские решения для вашего дома</div><a class="btn btn-primary" href="#">Подробнее</a>
+                </div>
               </div>
             </div>
-          </h1>
-        </div>
+          </div>
+        </section>
+        <section class="you-view"> 
+          <div class="container">
+            <div class="you-view-title">
+              <h3>Вы уже смотрели</h3>
+            </div>
+            <div class="you-view-list"> 
+              <ul class="view-list">
+                <li class="view-list-item"> <img src="./images/leaves-111864615-1.jpg" alt="Штора на тесьме Leaves (цвет: коричневый)">
+                  <div class="view-list-item-title">Штора на тесьме Leaves (цвет: коричневый)</div>
+                </li>
+                <li class="view-list-item"> <img src="./images/ancona_3-1.jpg" alt="Штора на тесьме &quot;Ancona - V&quot;">
+                  <div class="view-list-item-title">Штора на тесьме &quot;Ancona - V&quot;</div>
+                </li>
+                <li class="view-list-item"> <img src="./images/senna-111858300-1.jpg" alt="Штора на тесьме &quot;Senna-XL">
+                  <div class="view-list-item-title">Штора на тесьме &quot;Senna-XL</div>
+                </li>
+                <li class="view-list-item"> <img src="./images/cremona-111538110-1.jpg" alt="Штора на тесьме Cremona (цвет: Белый)">
+                  <div class="view-list-item-title">Штора на тесьме Cremona (цвет: Белый)</div>
+                </li>
+              </ul>
+            </div>
+            <div class="space"></div>
+          </div>
+        </section>
       </main>
-      <footer>
-        <div class="conteiner">
-          <div class="footer"> 
-            <h1>Подвал сайта</h1>
+      <div class="bottom_body_bg">
+        <div class="div_bg_left-bottom"></div>
+        <div class="div_bg_right-bottom"></div>
+      </div>
+      <footer class="border-top-line">
+        <div class="container">
+          <div class="footer">
+            <div class="col"> 
+              <p class="footer_p-left">Call центр ежедневно<span>С 9:00 до 18:00 </span></p>
+            </div>
+            <div class="col"> 
+              <p class="footer_p-center">domjarnizov@mail.ru<span>+7 (990) 555-55-55</span></p>
+            </div>
+            <div class="col"> 
+              <p class="footer_p-right">Дом карнизов<span>интернет-магазин</span></p>
+            </div>
           </div>
         </div>
       </footer>

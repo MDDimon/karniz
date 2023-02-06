@@ -1,11 +1,11 @@
-- var pageTitle = 'Online TV'
+- var pageTitle = 'Дом карнизов | интернет–магазин'
 
 doctype html
 html(lang="ru")
 	head
 		title=pageTitle
-		link(rel="stylesheet", href="styles/fonts.css")
 		link(rel="stylesheet", href="styles/normalize.css")
+		link(rel="stylesheet", href="styles/fonts.css")
 		link(rel="stylesheet", href="styles/styles.css")
 		
 		//-	Подключаем адаптивность
@@ -17,25 +17,27 @@ html(lang="ru")
 			//- include modules/catalog-and-menu
 			//-	Выводим контент страницы
 			main.main
-				.conteiner
-					h1 Pug- node templayion enginecd
-						.conteiner-iteam
-							.conteiner-iteam-block
-								img(src="#" alt="")
-								.conteiner-iteam-title
-									span.title Карнизы
-							.conteiner-iteam-block
-								img(src="#" alt="")
-								.conteiner-iteam-title
-									span.title Ткани
-							.conteiner-iteam-block
-								img(src="#" alt="")
-								.conteiner-iteam-title
-									span.title Солнцезащита
-							.conteiner-iteam-block
-								img(src="#" alt="")
-								.conteiner-iteam-title
-									span.title Аксессуары
+				section.container
+					//-h1 Pug- node templayion enginecd
+					.conteiner-iteam
+						a.conteiner-iteam-block(title="Карнизы" href="#")
+							img(src="./images/karniz.png" alt="")
+							.conteiner-iteam-title
+								span.title Карнизы
+						a.conteiner-iteam-block(title="Ткани" href="#")
+							img(src="./images/tkani.png" alt="")
+							.conteiner-iteam-title
+								span.title Ткани
+						a.conteiner-iteam-block(title="Солнцезащита" href="#")
+							img(src="./images/solncezashita.png" alt="")
+							.conteiner-iteam-title
+								span.title Солнцезащита
+						a.conteiner-iteam-block(title="Аксессуары" href="#")
+							img(src="./images/aksessuary.png" alt="")
+							.conteiner-iteam-title
+								span.title Аксессуары
+				include modules/_slider
+				include modules/_section_you_view
 			//-	Подключение footera
 			include modules/_footer
 		//-	Подключение скриптов
